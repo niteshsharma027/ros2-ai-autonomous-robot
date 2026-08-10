@@ -9,6 +9,5 @@
   <exec_depend>rclpy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>cv_bridge</exec_depend>
-  <exec_depend>opencv-python</exec_depend>
   <export><build_type>ament_cmake</build_type></export>
 </package>
