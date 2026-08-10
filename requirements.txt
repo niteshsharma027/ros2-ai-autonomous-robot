@@ -1,0 +1,5 @@
+# Python dependencies used by the AI perception layer.
+# ROS 2 packages such as rclpy, cv_bridge and sensor_msgs are installed via apt/ROS.
+opencv-python>=4.8
+numpy>=1.26
+ultralytics>=8.3
