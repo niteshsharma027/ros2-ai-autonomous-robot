@@ -96,10 +96,6 @@ ros2-ai-autonomous-robot/
 - RViz2
 - Python 3
 
-## 📌 Project Vision
-
-The long-term goal is to create a practical autonomous robot combining **robotics, embedded systems, computer vision and artificial intelligence** in one platform.
-
 ## 👨‍💻 Author
 
 **Nitesh Sharma**  
