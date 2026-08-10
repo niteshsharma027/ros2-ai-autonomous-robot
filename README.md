@@ -103,8 +103,4 @@ The long-term goal is to create a practical autonomous robot combining **robotic
 ## 👨‍💻 Author
 
 **Nitesh Sharma**  
-Electronics & Telecommunication Engineering | AI/ML | Robotics | Embedded Systems | VLSI
-
----
-
-⭐ If this project is useful, consider starring the repository.
+Electronics & Telecommunication Engineering | AI/ML | Robotics | Embedded Systems
