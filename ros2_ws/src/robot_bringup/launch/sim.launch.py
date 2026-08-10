@@ -35,4 +35,11 @@ def generate_launch_description():
         output='screen',
     )
 
-    return LaunchDescription([gazebo, rsp, spawn])
+    bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        parameters=[{'config_file': PathJoinSubstitution([pkg, 'config', 'bridge.yaml'])}],
+        output='screen',
+    )
+
+    return LaunchDescription([gazebo, rsp, spawn, bridge])
