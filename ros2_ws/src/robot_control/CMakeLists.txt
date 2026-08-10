@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.8)
+project(robot_control)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY scripts config launch DESTINATION share/${PROJECT_NAME})
+ament_python_install_package(${PROJECT_NAME})
+ament_package()
