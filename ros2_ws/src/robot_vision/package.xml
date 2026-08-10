@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_vision</name>
+  <version>0.1.0</version>
+  <description>Camera perception and YOLO object detection nodes.</description>
+  <maintainer email="niteshsharma027@users.noreply.github.com">Nitesh Sharma</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
